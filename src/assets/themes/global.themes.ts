@@ -4,5 +4,6 @@ export const SPACING = {
     xmedium: 15,
     medium: 20,
     xlarge: 25,
-    large: 30
+    large: 30,
+    full: '100%'
 }
