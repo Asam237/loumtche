@@ -22,7 +22,7 @@ const changeByVariant = (variant: any) => {
 
 export const MyText = (props: any) => {
     const myStyles = changeByVariant(props.variant)
-    return <Text style={[myStyles, { color: props.myColorText, lineHeight: props.myLineHeight }]}>{props.myText}</Text>
+    return <Text style={[myStyles, { color: props.myColorText, textAlign: props.myTextAlign, lineHeight: props.myLineHeight }]}>{props.myText}</Text>
 
 }
 

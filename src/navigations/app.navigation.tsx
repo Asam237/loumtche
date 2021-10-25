@@ -16,6 +16,13 @@ export const AppNavigation = () => {
                         header: () => null
                     }}
                 />
+                <Stack.Screen
+                    name={ROUTES.home.name}
+                    component={ROUTES.home.component}
+                    options={{
+                        header: () => null
+                    }}
+                />
             </Stack.Navigator>
         </NavigationContainer>
     )

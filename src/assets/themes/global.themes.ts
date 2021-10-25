@@ -7,3 +7,8 @@ export const SPACING = {
     large: 30,
     full: '100%'
 }
+
+export const COLOR = {
+    primaryColor: "#A89783",
+    secondaryColor: "#fff"
+}
