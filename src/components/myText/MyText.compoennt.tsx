@@ -1,5 +1,6 @@
 import React from "react"
 import { StyleSheet, Text } from "react-native"
+import { SPACING } from "../../assets/themes/global.themes"
 
 const TEXT_STYLE = {
     header: "header",
@@ -21,12 +22,18 @@ const changeByVariant = (variant: any) => {
 
 export const MyText = (props: any) => {
     const myStyles = changeByVariant(props.variant)
-    return <Text style={[myStyles]}>{props.myText}</Text>
+    return <Text style={[myStyles, { color: props.myColor, lineHeight: props.myLineHeight }]}>{props.myText}</Text>
 
 }
 
 const styles = StyleSheet.create({
-    header: {},
-    subTitle: {},
-    title: {}
+    header: {
+        fontSize: SPACING.large
+    },
+    subTitle: {
+        fontSize: SPACING.xmedium
+    },
+    title: {
+        fontSize: SPACING.xlarge
+    }
 })
