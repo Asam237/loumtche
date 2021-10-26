@@ -12,7 +12,7 @@ const HEIGHT = 45;
 
 export const Welcome = (navigation: any) => {
     const toHome = () => {
-        return navigation.navigation.navigate("home")
+        return navigation.navigation.navigate("signup")
     }
     return (
         <SafeAreaView style={styles.container}>
