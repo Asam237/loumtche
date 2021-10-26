@@ -15,8 +15,7 @@ export const MyButton = (props: any) => {
 
 const styles = StyleSheet.create({
     container: {
-        height: SPACING.full,
-        width: SPACING.full,
+        flex: 1,
         borderRadius: SPACING.medium
     },
     container__opacity: {

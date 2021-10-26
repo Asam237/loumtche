@@ -10,5 +10,6 @@ export const SPACING = {
 
 export const COLOR = {
     primaryColor: "#A89783",
-    secondaryColor: "#fff"
+    secondaryColor: "#fff",
+    gray: "#cecece"
 }
